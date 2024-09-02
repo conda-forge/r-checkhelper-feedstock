@@ -1,6 +1,5 @@
 {% set version = '0.1.1' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-checkhelper
@@ -13,8 +12,7 @@ source:
   sha256: bfeeff2b4eb1f5141cccd4d1cc7179bfd0de684cc2d3338543c906559f871952
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
