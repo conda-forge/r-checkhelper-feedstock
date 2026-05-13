@@ -29,33 +29,43 @@ requirements:
   host:
     - r-base
     - r-cli
+    - r-covr
     - r-desc
     - r-devtools
     - r-dplyr
     - r-glue
+    - r-knitr
     - r-lifecycle
     - r-magrittr
     - r-pkgbuild
+    - r-pkgload
     - r-purrr
     - r-rcmdcheck
     - r-roxygen2
+    - r-stringi
     - r-stringr
+    - r-tibble
     - r-whisker >=0.4
     - r-withr
   run:
     - r-base
     - r-cli
+    - r-covr
     - r-desc
     - r-devtools
     - r-dplyr
     - r-glue
+    - r-knitr
     - r-lifecycle
     - r-magrittr
     - r-pkgbuild
+    - r-pkgload
     - r-purrr
     - r-rcmdcheck
     - r-roxygen2
+    - r-stringi
     - r-stringr
+    - r-tibble
     - r-whisker >=0.4
     - r-withr
 
