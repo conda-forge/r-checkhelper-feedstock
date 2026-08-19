@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/checkhelper_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/checkhelper/checkhelper_{{ version }}.tar.gz
-  sha256: 5c4d53491ecabde0f234aa0014ec0d9fe8e6b69005a2f12a324f57fd0fc8d2f2
+  sha256: 5488d90039c08fb1935ec1aa9e318412b3cd16f9a63b7c07fa5cbbb4b7ab3508
 
 build:
   number: 0
